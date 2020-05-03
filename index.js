@@ -18,5 +18,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 module.exports = {
     extends: "eslint-config-naturecodevoid",
-    prettier: require("nature-prettier-config")
+    prettier: true
 };
