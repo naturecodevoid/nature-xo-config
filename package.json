@@ -1,6 +1,6 @@
 {
     "name": "nature-xo-config",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "naturecodevoid's XO Config",
     "main": "index.js",
     "bin": "cli.js",
@@ -24,6 +24,8 @@
     },
     "devDependencies": {},
     "peerDependencies": {
-        "xo": ">= 0.30.0"
+        "xo": ">= 0.30.0",
+        "eslint-config-naturecodevoid": ">= 1.0.0",
+        "nature-prettier-config": ">= 1.0.7"
     }
 }
