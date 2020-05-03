@@ -1,0 +1,29 @@
+{
+    "name": "nature-xo-config",
+    "version": "1.0.0",
+    "description": "naturecodevoid's XO Config",
+    "main": "index.js",
+    "bin": "cli.js",
+    "scripts": {
+        "test": "cd ./test && xo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/naturecodevoid/nature-xo-config.git"
+    },
+    "author": "naturecodevoid@GitHub, naturecodevoid#6253@Discord",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/naturecodevoid/nature-xo-config/issues"
+    },
+    "homepage": "https://github.com/naturecodevoid/nature-xo-config#readme",
+    "dependencies": {
+        "eslint-config-naturecodevoid": "^1.0.0",
+        "nature-prettier-config": "^1.0.7",
+        "xo": "^0.30.0"
+    },
+    "devDependencies": {},
+    "peerDependencies": {
+        "xo": ">= 0.30.0"
+    }
+}

@@ -1,0 +1,14 @@
+.DS_Store
+[Dd]esktop.ini
+test
+test/
+test/*
+node_modules
+node_modules/
+node_modules/*
+package-lock.json
+.npmignore
+.gitignore
+.gitattributes
+.eslintrc.js
+prettier.config.js
