@@ -11,44 +11,17 @@
 This assumes you have Node.js and npm (bundled with node) and the terminal's working directory is where you want to make
 the `.xo-config.js`.
 
-1. Install config: `$ npm install --save-dev nature-xo-config`
-1. Generate the `.xo-config.js`: `$ npx nature-xo-config`
+1. Run `$ npm install --save-dev nature-xo-config`. This should generate the files
+1. If step 1 doesn't work run `$ npx nature-xo-config`
 
-If you want to change options:
-
-<!-- prettier-ignore-start -->
+If you want to change options, just edit `.xo-config.js`:
 
 ```javascript
 // .xo-config.js
 module.exports = {
     ...require("nature-xo-config"),
+    space: true,
 };
 ```
 
-<!-- prettier-ignore-end -->
-
-<h3 align="center">Manual</h3>
-
-Install:
-
-```shell
-$ npm install --save-dev nature-xo-config
-```
-
-Edit `.xo-config.js`:
-
-```javascript
-module.exports = {
-    ...require("nature-xo-config"),
-};
-```
-
-Or if you want to change some rules:
-
-```javascript
-// .xo-config.js
-module.exports = {
-    ...require("nature-xo-config"),
-    space: true
-};
-```
+See https://github.com/naturecodevoid/nature-prettier-config for info on prettier settings.
